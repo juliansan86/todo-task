@@ -1,0 +1,14 @@
+{
+  "name": "todo-task",
+  "version": "1.0.0",
+  "description": "Aplicación para crear tareas desplegada en Heroku usando NodeJS, Express, MongoDB y Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "julian santamaria",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
