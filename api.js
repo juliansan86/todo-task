@@ -21,7 +21,7 @@ environment = {
 };
 
 var query = 'mongodb+srv://' + environment.DBMONGOUSER + ':' + environment.DBMONGOPASS + '@' + environment.DBMONGOSERV + '/' + environment.DBMONGO + '?retryWrites=true&w=majority';
-var query = "mongodb+srv://juliansan86:94558652@cluster0.jwmwxaq.mongodb.net/tasksBD?retryWrites=true&w=majority"
+
 const db = (query);
 
 mongoose.Promise = global.Promise;
